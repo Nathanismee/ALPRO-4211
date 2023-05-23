@@ -19,8 +19,8 @@ void cetakhasil(const int arr[], int size){
                 }
             }
             if (hasilindex != -1){
-                std::cout << "Ganjil terkecil : "<<hasil<<std::endl;
-                std::cout << "> index :  "<<hasilindex<<std::endl;
+                std::cout << "Genap terkecil : "<<hasil<<std::endl;
+                std::cout << "index ke :  "<<hasilindex<<std::endl;
             } else
                 std::cout << "-"<<std::endl;
         }
